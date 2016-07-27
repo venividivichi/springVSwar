@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en" th:fragment="head">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="http://cdn.jsdelivr.net/webjars/bootstrap/3.3.4/css/bootstrap.min.css"
+          th:href="@{/webjars/bootstrap/3.3.4/css/bootstrap.min.css}"
+          rel="stylesheet" media="screen" />
+
+    <script src="http://cdn.jsdelivr.net/webjars/jquery/2.1.4/jquery.min.js"
+            th:src="@{/webjars/jquery/2.1.4/jquery.min.js}"></script>
+
+    <script src="http://cdn.jsdelivr.net/webjars/bootstrap/3.3.4/js/bootstrap.min.js"
+            th:src="@{/webjars/bootstrap/3.3.4/js/bootstrap.min.js}"></script>
+
+    <link href="../static/css/guru.css"
+          th:href="@{/css/guru.css}" rel="stylesheet" media="screen"/>
+
+    <link href="../static/css/footer_create.css"
+          th:href="@{/css/footer_create.css}" rel="stylesheet" media="screen"/>
+
+</head>
+<body>
+<div class="container">
+    <!--/*/ <th:block th:include="fragments/header :: header"></th:block> /*/-->
+
+    <h2>Category Details</h2>
+    <div>
+        <form data-toggle="validator" role="form" class="form-horizontal" th:object="${category}" th:action="@{/category}" method="post">
+            <input type="hidden" th:field="*{id}"/>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Name :</label>
+                <div class="col-sm-10 center-block">
+                    <input type="text" class="form-control" th:field="*{name}" th:required="true"/>
+                </div>
+            </div>
+
+            <div>
+                <button type="submit" class="btn btn-primary" id="btn_cat">Add</button>
+            </div>
+        </form>
+    </div>
+
+    <!--
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted"> </p>
+        </div>
+    </footer>       -->
+
+</div>
+<footer>
+
+    <ul>
+        <li>
+            <p class="home"></p>
+            <a class="logo" href="#" th:href="@{/}">GSC <i>&copy; 2016</i></a>
+        </li>
+        <li>
+            <p class="services"></p>
+            <ul>
+            </ul>
+        </li>
+
+        <li>
+            <p class="reachus"></p>
+            <ul>
+            </ul>
+        </li>
+        <li>
+            <p class="clients"></p>
+
+            <ul>
+            </ul>
+        </li>
+    </ul>
+
+</footer>
+
+</body>
+</html>

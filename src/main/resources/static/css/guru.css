@@ -1,0 +1,186 @@
+.center_div{
+    margin:7% auto;
+    width:27% /* value of your choice which suits your alignment */
+}
+
+.dropdown .dropdown-menu {
+
+    font-family:    Garamond;
+    font-size:      0.85em;
+
+}
+.container-fluid {
+
+    font-family: Garamond;
+    font-size: 1.6em;
+    padding: 15px 27px;
+}
+
+.container-fluid .btn-primary {
+
+
+    padding: 10px 10px 10px 10px;
+    font-family: Garamond;
+    font-size: 0.88em;
+}
+.container-fluid .navbar-nav{
+
+    padding-left: 17px;
+}
+
+.center_div .input-group-lg {
+    height: 40px;
+    margin-bottom: 12px;
+    font-family: Garamond;
+    font-size: 1.6em;
+}
+label {
+    margin-bottom: 12px;
+    font-family: Verdana;
+    font-size: 1.3em;
+}
+.center_div .jumbotron {
+
+    padding: 60px 60px 60px 60px;
+    background: #eee;
+}
+.jumbotron {
+
+   /* margin-top: 35px; */
+   margin-bottom: 35px;
+}
+
+.block {
+    background: #eee;
+    height: 67px;
+    width: 1140px;
+    borde-radius: 5px;
+}
+.block .pic1 {
+    display:block;
+}
+
+.footer {
+    position: inherit;
+    margin-top: 25px;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background: powderblue;
+
+}
+
+.container .btn-primary {
+
+    padding: 8px 14px;
+    font-family: Garamond;
+    font-size: 0.85em;
+}
+.container .form-group {
+
+    margin: 35px -10px;
+}
+
+#btn_log {
+
+    padding: 8px 15px;
+    margin: 10px;
+    font-family: Garamond;
+    font-size: 1.5em;
+}
+
+#btn_cat {
+
+    padding: 10px 18px;
+    font-family: Garamond;
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+#btn_cust {
+
+    padding: 10px 18px;
+    font-family: Garamond;
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+#btn_exe {
+
+    padding: 10px 18px;
+    font-family: Garamond;
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    margin-top: 15px;
+
+}
+#btn_doc {
+
+    padding: 10px 18px;
+    font-family: Garamond;
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    margin-top: 15px;
+
+}
+#error {
+    margin-top: 15px;
+    font-family: Garamond;
+    font-size: 1.5em;
+}
+.container .table-striped {
+
+    margin-top: 25px;
+}
+
+.center_div #panel {
+
+    height: 50px;
+    width: 1140px;
+    background-color: #eee;
+    margin-left: -325px;
+    margin-top: -110px;
+    margin-bottom: 90px;
+}
+.center_div .navbar-default{
+
+    width: 1200px;
+    margin-left:-588px;
+    left:50%;
+    margin-bottom: 70px;
+
+}
+.container .center-block{
+    padding-top: 2px;
+}
+.container .col-sm-10{
+    font-size: 1.3em;
+}
+.container .table-striped{
+    font-size: 1.1em;
+}
+.container .form-control{
+    font-size: 1.0em;
+    height: 43.312px;
+}
+.container .form-horizontal{
+    margin-left: 35px;
+}
+
+.center_div .form-control{
+    margin-bottom: 12px;
+    font-family: Garamond;
+    font-size: 1.6em;
+    height: 43.312px;
+}
+.container .col-sm-12{
+
+    margin-bottom: 12px;
+}
+#error{
+    font-family: Garamond;
+    font-size: 1.6em;
+    margin-left: 15px;
+    margin-bottom: 7px;
+}
